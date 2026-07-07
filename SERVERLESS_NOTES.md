@@ -1,13 +1,13 @@
 # Serverless Backend Notes (Vercel)
 
-Project now includes serverless API routes:
+Project now includes serverless API routes (handled by a single function):
 - /api/users
-- /api/users/:id
+- /api/users/:id (rewritten to /api/users?id=:id)
 
 Source files:
 - api/users/index.js
-- api/users/[id].js
 - api/_lib/store.js
+- vercel.json (route rewrite for /api/users/:id)
 
 ## Behavior
 

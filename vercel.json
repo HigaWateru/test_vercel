@@ -5,6 +5,10 @@
   "outputDirectory": "client/dist",
   "routes": [
     {
+      "src": "/api/users/([^/]+)",
+      "dest": "/api/users?id=$1"
+    },
+    {
       "handle": "filesystem"
     },
     {
