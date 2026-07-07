@@ -5,6 +5,7 @@ import routers from "./routes";
 import { ConfigProvider, App as AntdApp } from "antd"; // bold
 import viVN from "antd/locale/vi_VN"; // Ngôn ngữ Tiếng Việt
 import "./index.css";
+import "@/apis/axiosClient";
 import "@fontsource/poppins/400.css";
 import { Provider } from "react-redux";
 import { store } from './redux/store/index'
