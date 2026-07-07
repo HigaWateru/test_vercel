@@ -1,0 +1,39 @@
+# robots.txt - SEO Configuration
+# Generated for Project Manager Application
+# Last updated: 2024-01-07
+
+# Allow all crawlers to index the site
+User-agent: *
+Allow: /
+Disallow: /login
+Disallow: /register
+Disallow: /*.json
+Disallow: /*.xml
+Disallow: /api
+Disallow: /.env
+Disallow: /node_modules
+
+# Google Crawler
+User-agent: Googlebot
+Allow: /
+Allow: /projects
+Allow: /mytask
+Crawl-delay: 0
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Allow: /projects
+Allow: /mytask
+Crawl-delay: 1
+
+# Other crawlers
+User-agent: *
+Allow: /public
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://project-manager.vercel.app/sitemap.xml
+
+# Host
+Host: https://project-manager.vercel.app

@@ -1,0 +1,429 @@
+{
+  "users": [
+    {
+      "id": "u001",
+      "username": "nguyenvana",
+      "email": "a@example.com",
+      "password": "123456",
+      "projects": [
+        {
+          "id": 1,
+          "name": "Website thương mại điện tử",
+          "image": "https://picsum.photos/seed/ecommerce/400/250",
+          "description": "Phát triển website bán hàng điện tử với React và Node.js",
+          "members": [
+            {
+              "id": "m01",
+              "username": "Trần Minh",
+              "email": "tranminh@example.com",
+              "role": "Frontend Developer"
+            },
+            {
+              "id": "m03",
+              "username": "Phạm Tuấn",
+              "email": "phamtuan@example.com",
+              "role": "Tester"
+            },
+            {
+              "id": "u001",
+              "username": "nguyenvana",
+              "email": "a@example.com",
+              "role": "Designer"
+            },
+            {
+              "id": "uCzpqEC",
+              "username": "Higa_Wateru",
+              "email": "fc.canhcut1@gmail.com",
+              "role": "Backend Developer"
+            }
+          ],
+          "todos": [
+            {
+              "id": "t01",
+              "title": "Thiết kế giao diện trang chủ",
+              "personChange": {
+                "id": "m01",
+                "username": "Trần Minh",
+                "email": "tranminh@example.com",
+                "role": "Frontend Developer"
+              },
+              "status": "in-progress",
+              "startDate": "2025-10-10",
+              "endDate": "2025-10-11",
+              "priority": "low",
+              "progress": "delayed"
+            },
+            {
+              "id": "t02",
+              "title": "Tạo API sản phẩm",
+              "personChange": {
+                "id": "u001",
+                "username": "nguyenvana",
+                "email": "a@example.com",
+                "role": "Designer"
+              },
+              "status": "pending",
+              "startDate": "2025-10-10",
+              "endDate": "2025-10-21",
+              "priority": "medium",
+              "progress": "scheduled"
+            },
+            {
+              "id": "t03",
+              "title": "Kiểm thử giỏ hàng",
+              "personChange": {
+                "id": "uCzpqEC",
+                "username": "Higa_Wateru",
+                "email": "fc.canhcut1@gmail.com",
+                "role": "Backend Developer"
+              },
+              "status": "to-do",
+              "startDate": "2025-10-13",
+              "endDate": "2025-10-15",
+              "priority": "low",
+              "progress": "scheduled"
+            },
+            {
+              "id": "t04",
+              "title": "Tối ưu UI cho trang sản phẩm",
+              "personChange": {
+                "id": "u001",
+                "username": "nguyenvana",
+                "email": "a@example.com",
+                "role": "Designer"
+              },
+              "status": "in-progress",
+              "startDate": "2025-10-29",
+              "endDate": "2025-11-06",
+              "priority": "high",
+              "progress": "in-progress"
+            },
+            {
+              "id": "t05",
+              "title": "Triển khai website lên hosting",
+              "personChange": {
+                "id": "m03",
+                "username": "Phạm Tuấn",
+                "email": "phamtuan@example.com",
+                "role": "Tester"
+              },
+              "status": "pending",
+              "startDate": "2025-10-11",
+              "endDate": "2025-10-31",
+              "priority": "high",
+              "progress": "in-progress"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Ứng dụng quản lý học sinh",
+          "image": "https://picsum.photos/seed/school/400/250",
+          "description": "Xây dựng hệ thống quản lý học sinh cho trường học",
+          "members": [
+            {
+              "id": "m04",
+              "username": "Lê Phương",
+              "email": "lephuong@example.com",
+              "role": "Project Manager"
+            },
+            {
+              "id": "m05",
+              "username": "Đỗ Huy",
+              "email": "dohuy@example.com",
+              "role": "Database Engineer"
+            },
+            {
+              "id": "uCzpqEC",
+              "username": "Higa_Wateru",
+              "email": "fc.canhcut1@gmail.com",
+              "role": "Developer"
+            },
+            {
+              "id": "u001",
+              "username": "nguyenvana",
+              "email": "a@example.com",
+              "role": "Designer"
+            }
+          ],
+          "todos": [
+            {
+              "id": "t11",
+              "title": "Thiết kế cơ sở dữ liệu học sinh",
+              "priority": "high",
+              "personChange": {
+                "id": "m05",
+                "username": "Đỗ Huy",
+                "email": "dohuy@example.com",
+                "role": "Database Engineer"
+              },
+              "startDate": "2025-09-01",
+              "endDate": "2025-09-03",
+              "progress": "done",
+              "status": "done"
+            },
+            {
+              "id": "t12",
+              "title": "Phát triển giao diện nhập điểm",
+              "priority": "medium",
+              "personChange": {
+                "id": "m04",
+                "username": "Lê Phương",
+                "email": "lephuong@example.com",
+                "role": "Project Manager"
+              },
+              "startDate": "2025-09-04",
+              "endDate": "2025-09-10",
+              "progress": "in-progress",
+              "status": "in-progress"
+            },
+            {
+              "id": "t13",
+              "title": "Kết nối backend và frontend",
+              "priority": "high",
+              "personChange": {
+                "id": "m05",
+                "username": "Đỗ Huy",
+                "email": "dohuy@example.com",
+                "role": "Database Engineer"
+              },
+              "startDate": "2025-09-11",
+              "endDate": "2025-09-15",
+              "progress": "scheduled",
+              "status": "pending"
+            },
+            {
+              "id": "t14",
+              "title": "Tạo báo cáo học sinh",
+              "priority": "medium",
+              "personChange": {
+                "id": "m04",
+                "username": "Lê Phương",
+                "email": "lephuong@example.com",
+                "role": "Project Manager"
+              },
+              "startDate": "2025-09-16",
+              "endDate": "2025-09-22",
+              "progress": "scheduled",
+              "status": "to-do"
+            },
+            {
+              "id": "t1759825791598",
+              "title": "Tạo giao diện câu hỏi",
+              "personChange": {
+                "id": "u001",
+                "username": "nguyenvana",
+                "email": "a@example.com",
+                "role": "Designer"
+              },
+              "status": "in-progress",
+              "startDate": "2025-10-29",
+              "endDate": "2025-11-08",
+              "priority": "high",
+              "progress": "in-progress"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Ứng dụng học ReactJS",
+          "image": "https://cdn-media.sforum.vn/storage/app/media/HuynhUy/React%20l%C3%A0%20g%C3%ACH%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20chi%20ti%E1%BA%BFt%20cho%20ng%C6%B0%E1%BB%9Di%20m%E1%BB%9Bi%20b%E1%BA%AFt%20%C4%91%E1%BA%A7u/react-la-gi-thumb.jpg",
+          "description": "Ứng dụng hướng đến những người muốn tìm hiểu về ReactJS ",
+          "todos": [
+            {
+              "id": "t1759887552687",
+              "title": "Giao diện trang đăng nhập",
+              "personChange": {
+                "id": "uCzpqEC",
+                "username": "Higa_Wateru",
+                "email": "fc.canhcut1@gmail.com",
+                "role": "Front-end developer"
+              },
+              "status": "pending",
+              "startDate": "2025-10-09",
+              "endDate": "2025-11-01",
+              "priority": "high",
+              "progress": "scheduled"
+            },
+            {
+              "id": "t1759887608748",
+              "title": "Giao diện trang đăng kí",
+              "personChange": {
+                "id": "HOLydZn",
+                "username": "Sỹ Trung",
+                "email": "sytrung@gmail.com",
+                "role": "Back-end developer"
+              },
+              "status": "to-do",
+              "startDate": "2025-10-09",
+              "endDate": "2025-11-07",
+              "priority": "low",
+              "progress": "in-progress"
+            },
+            {
+              "id": "t1759887661165",
+              "title": "Ứng dụng cloudinary",
+              "personChange": {
+                "id": "HOLydZn",
+                "username": "Sỹ Trung",
+                "email": "sytrung@gmail.com",
+                "role": "Back-end developer"
+              },
+              "status": "in-progress",
+              "startDate": "2025-10-12",
+              "endDate": "2025-11-06",
+              "priority": "high",
+              "progress": "delayed"
+            }
+          ],
+          "members": [
+            {
+              "id": "jRWolsX",
+              "username": "Cường Nguyễn",
+              "email": "manhcuong@gmail.com",
+              "role": "Designer"
+            },
+            {
+              "id": "uCzpqEC",
+              "username": "Higa_Wateru",
+              "email": "fc.canhcut1@gmail.com",
+              "role": "Front-end developer"
+            },
+            {
+              "id": "HOLydZn",
+              "username": "Sỹ Trung",
+              "email": "sytrung@gmail.com",
+              "role": "Back-end developer"
+            },
+            {
+              "id": "u001",
+              "username": "nguyenvana",
+              "email": "a@example.com",
+              "role": "Database Manager"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Dự án 1",
+          "image": "https://media.vneconomy.vn/images/upload/2023/10/18/tieu-chi-du-an-ung-dung-cong-nghe-cao-de-san-xuat-san-pham-cong-nghe-cao.jpg",
+          "description": "Dự án 1 (tạm thời để như thế)",
+          "todos": [
+            {
+              "id": "t1759970380117",
+              "title": "Xây dựng lồng kính",
+              "personChange": {
+                "id": "u001",
+                "username": "nguyenvana",
+                "email": "a@example.com",
+                "role": "Designer"
+              },
+              "status": "to-do",
+              "startDate": "2025-10-10",
+              "endDate": "2025-10-25",
+              "priority": "medium",
+              "progress": "scheduled"
+            }
+          ],
+          "members": [
+            {
+              "id": "u001",
+              "username": "nguyenvana",
+              "email": "a@example.com",
+              "role": "Designer"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Ứng dụng quản lý sản phẩm laptop",
+          "image": "https://res.cloudinary.com/dxkw3nupk/image/upload/v1759973425/k2w630mbq5r5dvrfa4bt.webp",
+          "description": "Ứng dụng cho phép mọi người đăng tải mua bán các sản phẩm laptop",
+          "todos": [],
+          "members": []
+        },
+        {
+          "id": 13,
+          "name": "Ứng dụng nạp QH",
+          "image": "https://res.cloudinary.com/dxkw3nupk/image/upload/v1760314835/nvlgu2lucddesbfjjlcf.jpg",
+          "description": "Ứng dụng tránh nạp lậu mang đến môi trường cạnh tranh",
+          "todos": [],
+          "members": []
+        }
+      ]
+    },
+    {
+      "name": "Higa_Wateru",
+      "email": "fc.canhcut1@gmail.com",
+      "password": "12345678",
+      "projects": [
+        {
+          "id": 1,
+          "name": "Quản lý trang web",
+          "image": "https://res.cloudinary.com/dxkw3nupk/image/upload/v1760493585/z9zebqrvlusqw6hqescb.png",
+          "description": "Quản lý các trang web giúp sử dụng trang web tiện lợi",
+          "todos": [
+            {
+              "id": "t1760493702610",
+              "title": "Quản lý UI",
+              "personChange": {
+                "id": "uCzpqEC",
+                "username": "Higa_Wateru",
+                "email": "fc.canhcut1@gmail.com",
+                "role": "Desginer"
+              },
+              "status": "pending",
+              "startDate": "2025-10-16",
+              "endDate": "2025-10-18",
+              "priority": "high",
+              "progress": "scheduled"
+            }
+          ],
+          "members": [
+            {
+              "id": "u001",
+              "username": "nguyenvana",
+              "email": "a@example.com",
+              "role": "Developer"
+            },
+            {
+              "id": "uCzpqEC",
+              "username": "Higa_Wateru",
+              "email": "fc.canhcut1@gmail.com",
+              "role": "Desginer"
+            }
+          ]
+        }
+      ],
+      "id": "uCzpqEC"
+    },
+    {
+      "name": "admin",
+      "email": "admin@admin.com",
+      "password": "12345678",
+      "projects": [],
+      "id": "2-sPOfo"
+    },
+    {
+      "name": "Sỹ Trung",
+      "email": "sytrung@gmail.com",
+      "password": "123456",
+      "projects": [],
+      "id": "HOLydZn"
+    },
+    {
+      "name": "Cường Nguyễn",
+      "email": "manhcuong@gmail.com",
+      "password": "abcdefgh",
+      "projects": [],
+      "id": "jRWolsX"
+    },
+    {
+      "name": "Thắng Nguyễn",
+      "email": "thangnguyen@gmail.com",
+      "password": "12345678",
+      "projects": [],
+      "id": "83d_3cx"
+    }
+  ]
+}
