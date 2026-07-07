@@ -4,13 +4,22 @@ import NotFound from "@/pages/projectManager/NotFound";
 import ProductDetail from "@/pages/projectManager/ProjectDetail";
 import ProjectList from "@/pages/projectManager/ProjectList";
 import React from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import ProtectedRouter from "./ProtectRouter";
 
 const Login = React.lazy(() => import("@/pages/login"));
 const Register = React.lazy(() => import("@/pages/register"));
 
+function RootRedirect() {
+  const userId = localStorage.getItem("currentUser");
+  return <Navigate to={userId ? "/projects" : "/login"} replace />;
+}
+
 const routers = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootRedirect />,
+  },
   {
     path: "/login",
     element: <LazyLoad children={<Login />} />,

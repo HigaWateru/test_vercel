@@ -55,13 +55,8 @@ export default defineConfig({
     },
     // Optimize CSS output
     cssCodeSplit: true,
-    // Minify options
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-      },
-    },
+    // Use built-in minifier to avoid optional terser dependency in CI/Vercel
+    minify: 'esbuild',
     // Report compressed size
     reportCompressedSize: true,
     // Chunk size warning threshold
